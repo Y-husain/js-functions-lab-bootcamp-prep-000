@@ -1,12 +1,17 @@
 // write your code below!
 
 function happyHolidays(){
+<<<<<<< HEAD
   return 'Happy holidays!'
+=======
+  return `Happy holidays!`
+>>>>>>> 0a7a5e98d89ad7e108f9969147f63b707d010815
 }
 
 function happyHolidaysTo(name){
   return `Happy holidays, ${name}!`
 }
+<<<<<<< HEAD
 function happyHolidayTo(holiday, name){
   return `Happy ${holiday}, ${name}!`
 }
@@ -20,6 +25,13 @@ describe('functions', () => {
       expect(happyHolidays()).toEqual('Happy holidays!')
     })
   })
+=======
+
+function holidayCountdown(parameter,parameter2){
+  console.log `It's ${days} days until ${holiday}!`
+}
+
+>>>>>>> 0a7a5e98d89ad7e108f9969147f63b707d010815
 
   describe('happyHolidaysTo(name)', () => {
     it('returns "Happy holidays, ${name}!"', () => {
